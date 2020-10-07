@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+  box-sizing: border-box;
+  border: 0 none;
+}
+
+body {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+/* Header */
+.header {
+  background-color: #d45649;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  position: sticky;
+  top: -60px;
+  z-index: 1;
+}
+
+.nav-logo {
+  width: 160px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.menu-list i {
+  font-size: 20px;
+  color: white;
+}
+
+.menu-list span {
+  display: none;
+}
+
+/* Search form */
+section {
+  padding: 20px 10px;
+}
+
+.lobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: 680px;
+}
+
+.img-bg {
+  position: absolute;
+  background: url(/assets/students.jpg) 55%;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 85%;
+}
+
+.homepage {
+  padding: 140px 30px;
+}
+
+.title {
+  font: bold 30px/30px "Roboto Condensed", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.search-f-container {
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  padding: 20px 10px;
+}
+
+.form-title {
+  font: bold 21px/23px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: rgb(85, 85, 85);
+  padding-bottom: 10px;
+}
+
+.search {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.search-btn {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #d45649;
+  color: white;
+  font: bold 20px/20px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
