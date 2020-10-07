@@ -119,3 +119,45 @@ section {
   text-transform: uppercase;
 }
 
+/* Instruction */
+.instructions {
+  text-align: center;
+}
+
+.inst-header {
+  padding: 10px 0 25px 0;
+}
+
+.inst-header h3 {
+  font: bold 25px/25px "Roboto Condensed", sans-serif;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.inst-header p {
+  font: normal 20px/23px "Roboto Condensed", sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  padding-bottom: 25px;
+}
+
+.item h4 {
+  font: bold 18px/20px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.item i {
+  font-size: 30px;
+}
+
+.item p {
+  font: normal 16px/23px "Roboto Condensed", sans-serif;
+}
