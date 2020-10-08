@@ -1,11 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Directory
+# Teachers Directory
 
-Newsweek clone website with usage of Bootstrap CSS Framework.
+This project was created based on the School Directory design from Mathew Njuguna and Sam Achola.
 
-![screenshot](app_screenshot.png)
+I created a Teachers Directory in which parents can search teachers or tutors depending on which subjects they're trying to find for their children. They can also filter teachers by subject, level, area, and curriculum. In this project I have implemented previous content such as flexbox, media queries, forms, background images, and clickable links.
 
+![screenshot](Screenshots/homepage.png)
+![Search Results](Screenshots/search.png)
+![Details](Screenshots/details.png)
 
 ## Built With
 
@@ -14,11 +17,13 @@ Newsweek clone website with usage of Bootstrap CSS Framework.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jcy2704/thenextweb/e3831e1bef723c033d97db7daa75e5eb59a0a0f0/index.html)
+[Teachers Directory](https://rawcdn.githack.com/jcy2704/directory-capstone/0d36ba17632fdeef292f4fedb747ad44f7fab949/index.html)
 
 ## Getting Started
 
-**This project was created for the sole purpose of learning and understanding frameworks, in this case, Bootstrap CSS Framework. The following will be instructions on how you can see the project on your own computer.**
+**This project was created based on the School Directory Design from Mathew Njuguna and Sam Achola. In this project there is usage of flexbox, media queries, forms, background images, and clickable links.**
+
+**The following will be instructions on how you can see the project on your own computer.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -50,7 +55,7 @@ Linters errors
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jcy2704/newsweek/issues).
+Feel free to check the [issues page](https://github.com/jcy2704/directory-capstone/issues).
 
 ## Show your support
 
@@ -58,6 +63,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Newsweek
-- Inspiration
+- Hat tip to Mathew Njuguna and Sam Achola in their desgin PatashuleKE
+
+## 📝 Credits and Licenses
+
+This work "Teachers Directory", is a derivative of "[PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE)" by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam), used under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+"Teachers Directory" is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) by Steven Jack Chung.

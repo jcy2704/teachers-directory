@@ -215,7 +215,9 @@
   .bot-footer .d-none {
     display: block;
   }
+}
 
+@media (min-width: 1024px) {
   .contact-block {
     display: flex;
     flex-direction: row;

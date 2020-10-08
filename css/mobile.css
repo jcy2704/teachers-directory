@@ -94,6 +94,7 @@ section {
   color: white;
   font: bold 20px/20px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* Instruction */
