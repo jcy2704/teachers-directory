@@ -100,3 +100,22 @@ a {
   border-radius: 5px;
 }
 
+@media (min-width: 768px) {
+  .details {
+    display: flex;
+  }
+  .profile-pic {
+    width: 40%;
+    padding-right: 25px;
+  }
+  .container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .details {
+    max-width: 960px;
+    margin: 25px auto;
+  }
+}
