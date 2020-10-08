@@ -16,3 +16,132 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.d-none {
+  display: none
+}
+
+/* filter */
+.filter {
+  width: 100%;
+  background-color: rgba(211, 211, 211, 0.356);
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.cont {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.filter-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-form>div {
+  padding: 10px 0;
+}
+
+.filter-form label {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.subject {
+  padding: 5px;
+  border: 1px solid rgba(165, 165, 165, 0.5);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper:after {
+  content: '\f078';
+  font: bold 17px/20px "Font Awesome 5 Free";
+  color: white;
+  right: 7px;
+  top: 4px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.filter-select {
+  padding: 5px;
+  border: 1px solid rgba(165, 165, 165, 0.5);
+  border-radius: 4px;
+  appearance: none;
+  width: 100%;
+  background-color: #d45749d0;
+  color: white;
+}
+
+.filter-select optgroup {
+  background-color: #457cb4af;
+}
+
+.reset-btn,
+.filter-btn {
+  padding: 5px;
+  background-color: #e5ac5b;
+  border-radius: 4px;
+  color: white;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.filter-btn {
+  background-color: #457db4;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .filter {
+    max-width: 840px;
+  }
+
+  .filter-form {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .filter-select {
+    padding-right: 23px;
+  }
+
+  .buttons {
+    display: flex;
+  }
+
+  .filter-btn {
+    padding: 8px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+
+/* Search results */
+section {
+  padding: 20px 10px;
+}
+
+.teachers-list img {
+  max-width: 100%;
+}

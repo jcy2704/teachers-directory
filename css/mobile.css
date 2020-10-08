@@ -21,6 +21,10 @@ a {
   position: relative;
 }
 
+.d-none {
+  display: none;
+}
+
 /* Search form */
 section {
   padding: 20px 10px;
@@ -213,123 +217,4 @@ section {
 /* Promo */
 .promo {
   background-color: #509bd7;
-}
-
-/* footer */
-.top-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  height: 300px;
-  color: white;
-}
-
-.footernav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  order: 2;
-}
-
-.footer-menu,
-.social-media {
-  font: normal 16px/18px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.footer-menu li,
-.social-media li {
-  padding-right: 15px;
-}
-
-.footer-menu li:last-child,
-.social-media li:last-child {
-  padding-right: 0;
-}
-
-.footer-logo {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid gray;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin: 15px 0 10px 0;
-  flex-shrink: 0;
-}
-
-.footer-logo img {
-  width: 50px;
-}
-
-.contact-block {
-  order: 1;
-  text-align: center;
-  padding: 0 30px;
-  margin-bottom: 40px;
-}
-
-.subscribe {
-  margin-top: 20px;
-}
-
-.sub-title {
-  font: bold 20px/22px "Roboto Condensed", sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.sub-email,
-.sub-btn {
-  width: 100%;
-  margin-bottom: 10px;
-  height: 30px;
-  padding: 0 10px;
-  font: bold 16px/20px "Roboto Condensed", sans-serif;
-}
-
-.sub-btn {
-  border-radius: 3px;
-  text-transform: uppercase;
-  background-color: rgb(145, 145, 145);
-  color: white;
-}
-
-.d-none {
-  display: none;
-}
-
-/* bot footer */
-.bot-footer {
-  background-color: rgb(70, 70, 70);
-  color: rgb(167, 167, 167);
-  font: bold 16px/20px "Roboto Condensed", sans-serif;
-  padding: 10px;
-}
-
-.social-logos {
-  padding: 10px;
-}
-
-.social-logos li {
-  display: inline-block;
-  padding-right: 10px;
-  font-size: 20px;
-}
-
-.copyright {
-  text-align: right;
-  font: normal 14px/16px "Roboto Condensed", sans-serif;
-}
-
-@media (max-width: 336px) {
-  .copyright {
-    font: normal 12px/16px "Roboto Condensed", sans-serif;
-  }
 }
