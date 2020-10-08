@@ -42,3 +42,14 @@
 .contact-block {
   order: 2;
 }
+
+.bot-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+
+.bot-footer .d-none {
+  display: block;
+}

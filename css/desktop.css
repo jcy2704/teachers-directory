@@ -76,10 +76,3 @@
 .about a {
   color: #e27f66;
 }
-
-.bot-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
