@@ -2,10 +2,6 @@
   display: block;
 }
 
-.menu {
-  width: 30%;
-}
-
 .flex {
   flex-direction: row;
   max-width: 90%;

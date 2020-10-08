@@ -21,40 +21,6 @@ a {
   position: relative;
 }
 
-/* Header */
-.header {
-  background-color: #d45649;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -60px;
-  z-index: 10;
-}
-
-.nav-logo {
-  width: 160px;
-}
-
-.menu-list {
-  display: flex;
-  justify-content: space-between;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.menu-list i {
-  font-size: 20px;
-  color: white;
-}
-
-.menu-list span {
-  font: bold 14px/24px "Roboto Condensed", sans-serif;
-  color: white;
-  text-transform: uppercase;
-}
-
 /* Search form */
 section {
   padding: 20px 10px;
