@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="assets/icon-icon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/icon-icon.png" >
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@400;700&display=swap"
@@ -21,7 +21,7 @@
   <header class="header">
     <nav class="nav-bar">
       <div class="logo-cont">
-        <img class="nav-logo" src="assets/Teachers_Directory-removebg-preview.png" alt="logo">
+        <img class="nav-logo" src="assets/teachersdirectory.png" alt="logo">
       </div>
       <div class="menu">
         <ul class="menu-list">
@@ -77,16 +77,15 @@
         <div class="item">
           <i class="fas fa-map-marked-alt"></i>
           <h4>Locate</h4>
-          <p>After reviewing the teachers profile, you can see which area they are offering tutoring and decide if it is
-            the best fit for you.</p>
+          <p>After reviewing the teachers' profile, you can see in which area they are offering tutoring and decide if it
+            is the best fit for you and your teacher. Teachers offer tutoring in her home as well as domicile.</p>
         </div>
 
         <div class="item">
           <i class="fas fa-user-check"></i>
           <h4>Hire</h4>
           <p>When you decide the best teacher, you can either hire directly from the site or you can contact them for
-            more
-            information before hiring.</p>
+            more information before hiring.</p>
         </div>
 
         <div class="item">
@@ -99,40 +98,46 @@
     </section>
 
     <section class="mid-sec">
-      <div class="country">
-        <div class="info">
-          <h4>Over 10,000 teachers around the country</h4>
-          <p>Find the best teacher for your kids.</p>
+      <div class="country pos-rel">
+        <div class="main-info">
+          <div class="info">
+            <h4>Over 10,000 teachers around the country</h4>
+            <p>Find the best teacher for your kids.</p>
+          </div>
+          <form class="mid-form" action="#">
+            <button class="mid-btn" type="submit">Find a Teacher</button>
+          </form>
         </div>
-        <form class="mid-form" action="#">
-          <button class="mid-btn" type="submit">Find a Teacher</button>
-        </form>
-        <picture class="image">
-          <img src="" alt="">
+        <picture>
+          <img class="img" src="assets/world.png" alt="world">
         </picture>
       </div>
 
-      <div class="near-u">
-        <div class="info">
-          <h4>Easier to find a teacher near you. No need to look for hiring sites.</h4>
-          <p>Look for the best teachers near you.</p>
+      <div class="near-u pos-rel">
+        <div class="main-info">
+          <div class="info">
+            <h4>Easier to find a teacher near you. No need to look for hiring sites.</h4>
+            <p>Look for the best teachers near you.</p>
+          </div>
+          <form class="mid-form" action="#">
+            <button class="mid-btn" type="submit">Find teachers near you</button>
+          </form>
         </div>
-        <form class="mid-form" action="#">
-          <button class="mid-btn" type="submit">Find teachers near you</button>
-        </form>
-        <picture class="image">
-          <img src="" alt="">
+        <picture>
+          <img class="img" src="assets/internet.svg" alt="internet">
         </picture>
       </div>
 
-      <div class="promo">
-        <div class="info">
-          <h4>Anytime Anywhere</h4>
-          <p>Teacher Directory is a convinient site you can see in any device you have. From mobile devices to desktops
-            and soon a mobile app.</p>
+      <div class="promo pos-rel">
+        <div class="main-info">
+          <div class="info">
+            <h4>Anytime Anywhere</h4>
+            <p>Teacher Directory is a convinient site you can see in any device you have. From mobile devices to desktops
+              and soon a mobile app.</p>
+          </div>
         </div>
-        <picture class="image">
-          <img src="" alt="">
+        <picture>
+          <img class="img" src="assets/phone.svg" alt="phone">
         </picture>
       </div>
     </section>
@@ -155,7 +160,7 @@
             <a href="#">Advertise</a>
           </li>
         </ul>
-        <div class="footer-logo"></div>
+        <div class="footer-logo d-none"><img src="assets/icon-icon.png" alt=""></div>
         <ul class="social-media">
           <li>
             <a href="#">Facebook</a>
@@ -181,12 +186,12 @@
           </form>
         </div>
 
-        <div class="contact-us">
+        <div class="contact-us d-none">
           <h3 class="sub-title">Contact</h3>
           <p>Have a question or submission? <span>info@tdirectory.com</span></p>
         </div>
 
-        <div class="about">
+        <div class="about d-none">
           <h3 class="sub-title">About</h3>
           <p>Teachers Directory is an online platform to make parents have an easier way to find a teacher or tutor for
             their kids, simply by searching for the desired subject. <a href="#">Learn more...</a></p>
@@ -195,9 +200,32 @@
     </div>
 
     <div class="bot-footer">
-      <div class="social-logos"></div>
+      <div class="d-none">
+        <ul class="social-logos">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
       <div class="copyright">
-        <p>copyright</p>
+        <p>Copyright © 2020 Teachers Directory. All Rights Reserved</p>
       </div>
     </div>
   </footer>
