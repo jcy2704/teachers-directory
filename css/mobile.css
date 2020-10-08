@@ -70,7 +70,7 @@ section {
 
 .img-bg {
   position: absolute;
-  background: url('/students.jpg') 55%;
+  background: url("/assets/students.jpg") 55%;
   background-size: cover;
   top: 0;
   bottom: 0;
