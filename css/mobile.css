@@ -79,6 +79,7 @@ section {
 
 .homepage {
   padding: 140px 30px;
+  max-width: 600px;
 }
 
 .title {
@@ -108,7 +109,7 @@ section {
   padding: 0 10px;
   background-color: white;
   margin-bottom: 10px;
-  font-size: 16px;
+  font: normal 16px/16px "Roboto Condensed", sans-serif;
 }
 
 .search-btn {
@@ -132,6 +133,7 @@ section {
 }
 
 .inst-header h3 {
+  color: #d45649;
   font: bold 25px/25px "Roboto Condensed", sans-serif;
   padding-bottom: 10px;
   text-transform: uppercase;
@@ -144,11 +146,12 @@ section {
 .flex {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .item {
   padding: 25px 0;
-  border-top: 1px solid rgba(128, 128, 128, 0.5);
+  max-width: 500px;
 }
 
 .item h4 {
@@ -158,6 +161,7 @@ section {
 }
 
 .item i {
+  color: #d45649;
   font-size: 30px;
 }
 
@@ -189,7 +193,7 @@ section {
 }
 
 .main-info {
-  width: 320px;
+  width: 70%;
   z-index: 1;
   color: white;
 }
@@ -216,7 +220,15 @@ section {
   width: 250px;
   position: absolute;
   top: 25px;
-  left: 200px;
+  right: -50px;
+  transition: ease all 0.5s;
+}
+
+@media (min-width: 500px) {
+  .img {
+    transition: ease all 0.5s;
+    right: 20px;
+  }
 }
 
 /* near you */
