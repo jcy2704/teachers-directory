@@ -139,9 +139,72 @@ a {
 
 /* Search results */
 section {
-  padding: 20px 10px;
+  padding: 20px;
+}
+
+.teachers-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 50px;
+}
+
+.found-title {
+  font: bold 24px/17px "Roboto Condensed", sans-serif;
+  color: #6d655e;
+  margin-bottom: 10px;
+}
+
+.teacher-cont {
+  padding: 10px 0 15px;
 }
 
 .teachers-list img {
   max-width: 100%;
+  padding-bottom: 10px;
+}
+
+.t-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.teacher-cont > p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (min-width: 768px) {
+  .flex-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .col {
+
+    margin-right: 25px;
+  }
+
+  .col:last-child {
+    margin-right: 0;
+  }
+
+  .teacher-cont {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .col {
+    flex-grow: 1;
+    margin-right: 40px;
+  }
+
+  .teacher-cont {
+    margin-bottom: 40px;
+  }
 }

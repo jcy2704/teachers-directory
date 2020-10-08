@@ -215,4 +215,52 @@
   .bot-footer .d-none {
     display: block;
   }
+
+  .contact-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+  }
+
+  .contact-block>div {
+    width: 33.33%;
+  }
+
+  .subscribe {
+    margin: 0;
+  }
+
+  .sub-email,
+  .sub-btn {
+    margin-bottom: 0;
+  }
+
+  .sub-email {
+    width: 70%;
+  }
+
+  .sub-btn {
+    width: 30%;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .sub-form {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-us span {
+    color: #e27f66;
+  }
+
+  .about {
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  .about a {
+    color: #e27f66;
+  }
 }
