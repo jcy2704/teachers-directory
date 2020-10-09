@@ -96,6 +96,12 @@
   padding-right: 15px;
 }
 
+.social-logos li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
 .footer-menu li:last-child,
 .social-media li:last-child {
   padding-right: 0;
@@ -162,12 +168,6 @@
   padding: 10px;
 }
 
-.social-logos li {
-  display: inline-block;
-  padding-right: 10px;
-  font-size: 20px;
-}
-
 .copyright {
   text-align: right;
   font: normal 14px/16px "Roboto Condensed", sans-serif;
@@ -225,7 +225,7 @@
     margin-top: 25px;
   }
 
-  .contact-block>div {
+  .contact-block > div {
     width: 33.33%;
   }
 

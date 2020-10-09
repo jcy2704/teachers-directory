@@ -4,7 +4,7 @@
 
 This project was created based on the School Directory design from Mathew Njuguna and Sam Achola.
 
-I created a Teachers Directory in which parents can search teachers or tutors depending on which subjects they're trying to find for their children. They can also filter teachers by subject, level, area, and curriculum. In this project I have implemented previous content such as flexbox, media queries, forms, background images, and clickable links.
+I created a Teachers Directory in which parents can search for teachers or tutors depending on which subjects they're trying to find for their children. They can also filter teachers by subject, level, area, and curriculum. In this project I have implemented previous content such as flexbox, media queries, forms, background images, and clickable links. I used the design's color scheme as well as most of the main structure. I made some tweaks to the design in terms of UX design and overall the content.
 
 ![screenshot](Screenshots/homepage.png)
 ![Search Results](Screenshots/search.png)

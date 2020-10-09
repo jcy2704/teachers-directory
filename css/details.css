@@ -18,7 +18,7 @@ a {
 }
 
 .d-none {
-  display: none
+  display: none;
 }
 
 .checked {
@@ -94,7 +94,7 @@ a {
   padding: 10px;
   font-size: 20px;
   background-color: #457db4;
-  color:white;
+  color: white;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 5px;
@@ -105,10 +105,12 @@ a {
   .details {
     display: flex;
   }
+
   .profile-pic {
     width: 40%;
     padding-right: 25px;
   }
+
   .container {
     width: 60%;
   }
