@@ -18,7 +18,7 @@ a {
 }
 
 .d-none {
-  display: none
+  display: none;
 }
 
 /* filter */
@@ -49,7 +49,7 @@ a {
   flex-direction: column;
 }
 
-.filter-form>div {
+.filter-form > div {
   padding: 10px 0;
 }
 
@@ -71,9 +71,9 @@ a {
   position: relative;
 }
 
-.select-wrapper:after {
+.select-wrapper::after {
   content: '\f078';
-  font: bold 17px/20px "Font Awesome 5 Free";
+  font: bold 17px/20px "Font Awesome 5 Free", sans-serif;
   color: white;
   right: 7px;
   top: 4px;
@@ -185,7 +185,6 @@ section {
   }
 
   .col {
-
     margin-right: 25px;
   }
 
