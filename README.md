@@ -6,9 +6,7 @@ This project was created based on the School Directory design from Mathew Njugun
 
 I created a Teachers Directory in which parents can search for teachers or tutors depending on which subjects they're trying to find for their children. They can also filter teachers by subject, level, area, and curriculum. In this project I have implemented previous content such as flexbox, media queries, forms, background images, and clickable links. I used the design's color scheme as well as most of the main structure. I made some tweaks to the design in terms of UX design and overall the content.
 
-![screenshot](Screenshots/homepage.png)
-![Search Results](Screenshots/search.png)
-![Details](Screenshots/details.png)
+![Mockup](Screenshots/tdirectory-mockup.png)
 
 ## Built With
 
@@ -17,7 +15,7 @@ I created a Teachers Directory in which parents can search for teachers or tutor
 
 ## Live Demo
 
-[Teachers Directory](https://rawcdn.githack.com/jcy2704/directory-capstone/0d36ba17632fdeef292f4fedb747ad44f7fab949/index.html)
+[Teachers Directory](https://rawcdn.githack.com/jcy2704/directory-capstone/524062f13d1cf8e40715157c86d2bb6030757ab0/index.html)
 
 ## Getting Started
 
