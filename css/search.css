@@ -162,6 +162,7 @@ section {
 .teachers-list img {
   max-width: 100%;
   padding-bottom: 10px;
+
 }
 
 .t-info {
@@ -186,6 +187,8 @@ section {
 
   .col {
     margin-right: 25px;
+    width: 33.33%;
+    max-height: 2000px;
   }
 
   .col:last-child {
@@ -193,7 +196,14 @@ section {
   }
 
   .teacher-cont {
-    margin-bottom: 25px;
+    min-height: 600px;
+  }
+}
+
+@media (min-width: 976px) {
+  .teacher-cont {
+    margin-bottom: 0;
+    height: 660px;
   }
 }
 
@@ -201,9 +211,5 @@ section {
   .col {
     flex-grow: 1;
     margin-right: 40px;
-  }
-
-  .teacher-cont {
-    margin-bottom: 40px;
   }
 }
