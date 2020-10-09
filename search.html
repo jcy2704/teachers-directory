@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/icon-logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <title>Search Teachers</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav-bar">
+      <div class="logo-cont">
+        <a href="index.html"><img class="nav-logo" src="assets/teachersdirectory.png" alt="logo"></a>
+      </div>
+      <div class="menu">
+        <ul class="menu-list">
+          <li>
+            <a href="search.html"><i class="fas fa-search"></i><span class="d-none">Search</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="far fa-user"></i><span class="d-none">About</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-rss"></i><span class="d-none">Blog</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-bars"></i><span class="d-none">More</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="filter-cont">
+      <div class="filter">
+        <div class="cont">
+          <h1 class="filter-title">Filter by subject, level, area, and curriculum.</h1>
+          <form class="filter-form" action="search.html">
+            <div>
+              <label for="subject">Subject</label>
+              <input class="subject" type="text" name="subject" id="subject">
+            </div>
+            <div>
+              <label for="level">Level</label>
+              <div class="select-wrapper">
+                <select class="filter-select" name="level" id="level">
+                  <option value="def" selected>All</option>
+                  <option value="kinder">
+                    Kindergarten
+                  </option>
+                  <option value="primary">
+                    Primary
+                  </option>
+                  <option value="secondary">
+                    Secondary
+                  </option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="area">Area</label>
+              <div class="select-wrapper">
+                <select class="filter-select" name="area" id="area">
+                  <option value="def" selected>All</option>
+                  <option value="near">Near me</option>
+                  <optgroup label="States">
+                    <option value="florida">Florida</option>
+                    <option value="california">California</option>
+                    <option value="utah">Utah</option>
+                    <option value="delaware">Delaware</option>
+                    <option value="texas">Texas</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="curriculum">Curriculum</label>
+              <div class="select-wrapper">
+                <select class="filter-select" name="curriculum" id="curriculum">
+                  <option value="def" selected>All</option>
+                  <option value="ib">International Baccalaurate</option>
+                  <option value="us">US Curriculum</option>
+                  <option value="camb">Cambridge Curriculum</option>
+                </select>
+              </div>
+            </div>
+            <div class="buttons">
+              <button class="filter-btn" type="submit">Filter</button>
+              <button class="reset-btn" type="reset">Clear</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="teachers-list">
+      <h3 class="found-title">Search results found 9 teachers.</h3>
+      <div class="flex-grid">
+        <div class="col">
+          <ul class="col-list">
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher1.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4>Ava Charlotte</h4>
+                      <p><b>Age:</b> 24</p>
+                    </div>
+                    <p><b>Subject:</b> Math</p>
+                  </div>
+                  <p>Hi, I am Ava and I will be glad to teach your children. I teach primarily Math from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher2.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4>Mady Alvarez</h4>
+                      <p><b>Age:</b> 38</p>
+                    </div>
+                    <p><b>Subject:</b> Physics</p>
+                  </div>
+                  <p>Hi, I am Mady and I will be glad to teach your children. I teach primarily phyics from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher3.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4>Elda Martinez</h4>
+                      <p><b>Age:</b> 57</p>
+                    </div>
+                    <p><b>Subject:</b> English</p>
+                  </div>
+                  <p>Hi, I am Elda and I will be glad to teach your children. I teach primarily English from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="col-list">
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher4.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4>Tessa Mirabal</h4>
+                      <p><b>Age:</b> 40</p>
+                    </div>
+                    <p><b>Subject:</b> French</p>
+                  </div>
+                  <p>Hi, I am Tessa and I will be glad to teach your children. I teach primarily French from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher5.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4>Kent Wacker</h4>
+                      <p><b>Age:</b> 25</p>
+                    </div>
+                    <p><b>Subject:</b> Math</p>
+                  </div>
+                  <p>Hi, I am Kent and I will be glad to teach your children. I teach primarily Math from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher6.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4>Joaquin Granato</h4>
+                      <p><b>Age:</b> 24</p>
+                    </div>
+                    <p><b>Subject:</b> Chemistry</p>
+                  </div>
+                  <p>Hi, I am Joaquin and I will be glad to teach your children. I teach primarily chemistry from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul class="col-list">
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher7.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4>Felisa Dalman</h4>
+                      <p><b>Age:</b> 24</p>
+                    </div>
+                    <p><b>Subject:</b> Latin</p>
+                  </div>
+                  <p>Hi, I am Felisa and I will be glad to teach your children. I teach primarily Latin from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher8.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4>He Yi Qiang</h4>
+                      <p><b>Age:</b> 26</p>
+                    </div>
+                    <p><b>Subject:</b> Geography</p>
+                  </div>
+                  <p>Hi, I am He Yi and I will be glad to teach your children. I teach primarily Geography from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="details.html">
+                <div class="teacher-cont">
+                  <img src="assets/teachers/teacher9.jpg" alt="teacher">
+                  <div class="t-info">
+                    <div class="per-info">
+                      <h4> Franklin Favela </h4>
+                      <p><b>Age:</b> 48</p>
+                    </div>
+                    <p><b>Subject:</b> History</p>
+                  </div>
+                  <p>Hi, I am Franklin and I will be glad to teach your children. I teach primarily History from all levels, but I also have knowledge in other subjects such as English, Science, and Literature.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="top-footer">
+      <div class="footernav">
+        <ul class="footer-menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="search.html">Search</a>
+          </li>
+          <li>
+            <a href="index.html">About Us</a>
+          </li>
+          <li>
+            <a href="#">Advertise</a>
+          </li>
+        </ul>
+        <div class="footer-logo"><img src="assets/icon-icon.png" alt=""></div>
+        <ul class="social-media">
+          <li>
+            <a href="#">Facebook</a>
+          </li>
+          <li>
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-block">
+        <div class="subscribe">
+          <h3 class="sub-title">Subscribe</h3>
+          <form class="sub-form" action="#">
+            <input class="sub-email" type="email" placeholder="you@example.com">
+            <button class="sub-btn" type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="contact-us d-none">
+          <h3 class="sub-title">Contact</h3>
+          <p>Have a question or submission? <br><span>info@tdirectory.com</span></p>
+        </div>
+
+        <div class="about d-none">
+          <h3 class="sub-title">About</h3>
+          <p>Teachers Directory is an online platform to make parents have an easier way to find a teacher or tutor for
+            their kids, simply by searching for the desired subject. <a href="#">Learn more...</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bot-footer">
+      <div class="d-none">
+        <ul class="social-logos">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2020 Teachers Directory. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

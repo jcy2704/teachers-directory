@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+  box-sizing: border-box;
+  border: 0 none;
+}
+
+body {
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.d-none {
+  display: none;
+}
+
+.checked {
+  color: orange;
+}
+
+.details {
+  padding: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.image {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.name {
+  font-size: 30px;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+
+.flex-cont {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.prof-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.container span {
+  font-weight: normal;
+}
+
+.prof-list li {
+  padding-bottom: 5px;
+}
+
+.rating {
+  order: 1;
+}
+
+.flex-det {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.contact-btn {
+  order: 2;
+}
+
+.det {
+  order: 1;
+}
+
+.info {
+  text-align: justify;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.det-list {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-now {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #457db4;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .details {
+    display: flex;
+  }
+
+  .profile-pic {
+    width: 40%;
+    padding-right: 25px;
+  }
+
+  .container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .details {
+    max-width: 960px;
+    margin: 25px auto;
+  }
+}
