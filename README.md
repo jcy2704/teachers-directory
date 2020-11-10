@@ -15,7 +15,7 @@ I created a Teachers Directory in which parents can search for teachers or tutor
 
 ## Live Demo
 
-[Teachers Directory](https://rawcdn.githack.com/jcy2704/directory-capstone/524062f13d1cf8e40715157c86d2bb6030757ab0/index.html)
+[Teachers Directory](https://jcy2704.github.io/directory-capstone/)
 
 ## Getting Started
 
