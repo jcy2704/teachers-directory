@@ -27,14 +27,17 @@ I created a Teachers Directory in which parents can search for teachers or tutor
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Git
 Computer running Mac OS, Windows, or Linux Ubuntu.
 Internet browser: Firefox, Google Chrome, Opera...
 
 ### Setup
-Download the code or copy the git repository to your computer.
-
+Download the code or clone the git repository to your computer.
+```
+    git clone https://github.com/jcy2704/directory-capstone.git
+```
 ### Usage
-Run the index.html file.
+Run the index.html file withing your computer.
 
 ### Run tests
 Linters errors
